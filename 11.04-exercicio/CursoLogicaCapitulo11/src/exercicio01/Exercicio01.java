@@ -17,7 +17,7 @@ public class Exercicio01 {
 		String tarefa;
 		int i = 0;
 		while (true) { // Deixei o true como condição do laço, pois, o que vai pará-lo é o fato do usuário digitar o "x" no console.
-            System.out.print("Tarefa " + i + ": ");
+			System.out.print("Tarefa " + i + ": ");
 			tarefa = scanner.nextLine();
 			
 			if ("x".equals(tarefa)) {
@@ -36,7 +36,7 @@ public class Exercicio01 {
 		
 		String mensagem = "Suas tarefas: \n" + tarefas;
 
-        System.out.print("Digite seu e-mail: ");
+		System.out.print("Digite seu e-mail: ");
 		String para = scanner.next(); 
 				
 		Carteiro.enviar(para, "Sua lista de tarefas", mensagem);
