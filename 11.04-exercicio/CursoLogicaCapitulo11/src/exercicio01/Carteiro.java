@@ -11,7 +11,7 @@ public class Carteiro {
 		Email email = new SimpleEmail();
 		email.setHostName("smtp.gmail.com");
 		email.setSmtpPort(465);
-		email.setAuthenticator(new DefaultAuthenticator("cursologica.algaworks", "!@#$%qwert"));
+		email.setAuthenticator(new DefaultAuthenticator("cursologica.algaworks", "algaworksGmail!"));
 		email.setSSLOnConnect(true);
 		email.setFrom("Curso Lógica <cursologica.algaworks@gmail.com>");
 		email.setSubject(assunto);
