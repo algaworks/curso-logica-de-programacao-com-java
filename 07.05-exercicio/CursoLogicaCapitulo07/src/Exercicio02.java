@@ -17,7 +17,7 @@ public class Exercicio02 {
 			
 			Double faturamentoSemana = 0.0;
 			
-			for (int y = 0; y < mes.length; y++) {
+			for (int y = 0; y < semana.length; y++) {
 				faturamentoSemana += semana[y];
 			}
 			
